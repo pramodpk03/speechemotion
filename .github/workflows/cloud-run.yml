@@ -21,7 +21,7 @@ jobs:
       uses: 'google-github-actions/auth@v0'
 
     # Setup gcloud CLI
-    - uses:  google-github-actions/deploy-cloudrun@v0
+    - uses:  google-github-actions/setup-gcloud@master
       with:
         version: '383.0.1'
         service_account_key: ${{ secrets.RUN_SA_KEY }}
