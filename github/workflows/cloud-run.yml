@@ -8,7 +8,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
-  RUN_REGION: us-central1
+  RUN_REGION: asia-south1
   SERVICE_NAME: helloworld-python
 
 jobs:
