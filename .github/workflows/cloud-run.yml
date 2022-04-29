@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - name: Deploy service to Cloud Run
-      uses: action-cloud-run@v1.6
+      uses: action-cloud-run@main
       # Setup gcloud CLI
     - uses:  GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
