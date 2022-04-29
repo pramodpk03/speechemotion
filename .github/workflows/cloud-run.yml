@@ -18,10 +18,10 @@ jobs:
 
     steps:
     - name: Deploy service to Cloud Run
-      uses: stefda/action-cloud-run@v1.6
+      uses: actions/checkout@v2
 
     # Setup gcloud CLI
-    - uses:  google-github-actions/setup-gcloud@v1.6
+    - uses:  google-github-actions/setup-gcloud@main
       with:
         version: '290.0.1'
         service_account_key: ${{ secrets.RUN_SA_KEY }}
