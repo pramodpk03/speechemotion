@@ -87,7 +87,7 @@ def main():
             original_title = '<p style="font-family:Courier; color:Teal; font-size: 25px;"><b>CREATED BY</b></p>'
             st.markdown(original_title, unsafe_allow_html=True)  
             st.write("\n")
-            original_title = '<p style="font-family:Courier; color:Teal; font-size: 20px;"><b>SAKSHI DHYANI</b></p>'
+            original_title = '<p style="font-family:Courier; color:Teal; font-size: 20px;"><b>Apoorva KR-apoorvargowda1@gmail.com</b></p>'
             st.markdown(original_title, unsafe_allow_html=True)       
 
 
